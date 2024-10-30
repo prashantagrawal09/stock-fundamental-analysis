@@ -12,31 +12,31 @@ Analyse which stocks in the S&P 500 would be profitable / valuable in the long r
 2. By clustering of stocks into profitable portfolios (Structure Detection)
    
 ## File Structure
-DataScripts contain the python scripts used to save data from AlphaVantage API
-tickers.csv contain the tickers of the 500 companies in the S&P 500.
-output.csv contain the data retrieved from AlphaVantage API
-vol5years contain yearly volatility data
-yoy5years contain yearly Year-on-Year returns data
-DSAI_Final.ipynb contain the python notebook where we perform EDA, Machine Learning and Analysis.
+1. DataScripts contain the python scripts used to save data from AlphaVantage API
+2. tickers.csv contain the tickers of the 500 companies in the S&P 500.
+3. output.csv contain the data retrieved from AlphaVantage API
+4. vol5years contain yearly volatility data
+5. yoy5years contain yearly Year-on-Year returns data
+6. DSAI_Final.ipynb contain the python notebook where we perform EDA, Machine Learning and Analysis.
 
 ## Dataset used
-AlphaVantage API for stock prices, income statements, balance sheets, statement of cashflows and company overview
-YahooFinance for stock prices
+1. AlphaVantage API for stock prices, income statements, balance sheets, statement of cashflows and company overview
+2. YahooFinance for stock prices
 
 ## Machine Learning Techniques
 1. Feature Selection
-Standard Scaler
-KNN Imputer
-Gradient Boosting Regressor
+      a. Standard Scaler
+      b. KNN Imputer
+      c. Gradient Boosting Regressor
 
 2. Hyperparameter Optimisation
-GridSearchCV
+      a. GridSearchCV
 
 3. Supervised Learning
-Linear Regression
-Lasso Regression
-Ridge Regression
-Artifical Neural Network
+      a. Linear Regression
+      b. Lasso Regression
+      c. Ridge Regression
+      d. Artifical Neural Network
 
 4. Unsupervised Learning
-Agglomerative Clustering
+      a.Agglomerative Clustering
